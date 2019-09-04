@@ -7,4 +7,4 @@ https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js
 De aici am pus forma ca exemplu
 https://formspree.io/
 
-Am instalat node.js ca sa merga forma de valiodare
+Am instalat node.js ca sa merga forma de validare
