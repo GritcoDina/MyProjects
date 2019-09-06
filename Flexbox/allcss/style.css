@@ -1,0 +1,147 @@
+.item{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 5px;
+}
+
+/* displau:inline-flex */
+/* .container{
+    display: inline-flex;
+} */
+
+/*  flex-direction: row; */
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+/* flex-direction: row-reverse; */
+.container2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* flex-direction: column; */
+.container3{
+    display: flex;
+    flex-direction: column;
+}
+
+/* flex-direction: column; */
+.container4{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*     flex-wrap:wrap; */
+.container5{
+    display: flex;
+    width: 600px;
+    flex-wrap:wrap;
+}
+
+/* flex-wrap:wrap; */
+.container6{
+    display: flex;
+    width: 600px;
+    flex-wrap:nowrap;
+}
+
+/* justify-content: space-between; */
+.container7{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* justify-content: space-around; */
+.container8{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* justify-content: center; */
+.container9{
+    display: flex;
+    justify-content: center;
+}
+
+/* justify-content: flex-start; */
+.container10{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* justify-content: flex-end; */
+.container11{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*align-content: flex-start; */
+.container12{
+    display: flex;
+   align-content: flex-start;
+
+}
+/* align-content: flex-end */
+.container13{
+    display: flex;
+   align-content: flex-end;
+}
+
+/* align-content: center */
+.container14{
+    display: flex;
+   align-content: center;
+}
+
+/* align-content: space-between; */
+.container15{
+    display: flex;
+   align-content:space-between;
+}
+
+/* align-content:space-around;; */
+.container16{
+    display: flex;
+   align-content: space-around;
+}
+
+/* align-content: strech; */
+.container17{
+    display: flex;
+   align-content: stretch;
+}
+
+/* align-content: strech; */ 
+.container18{
+    display: flex;
+   align-content: stretch;
+}
+
+/* order */
+.first{
+    order:-1;
+}
+
+
+/* Align flex */
+.container19{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.item1{
+    width: 100px;
+    /* height: 100px; */
+    background: red;
+    margin: 5px;
+    align-self:stretch;
+    /* align-self:center; */
+}
+
+
+
+

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Box exemplul 9</title>
+    <link rel="stylesheet" href="../allcss/style10.css">
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <div class="header">
+        <div class="header__section">
+            <div class="header__item headerlogo">
+                GDS
+            </div>
+            <div class="header__item headerButton"><a href="">Tehnologii</a></div>
+            <div class="header__item headerButton"><a href="">Servicii</a></div>
+            <div class="header__item headerButton"><a href="">Evenimente</a></div>
+            <div class="header__item headerButton"><a href="">Cariera</a></div>
+            <div class="header__item headerButton"><a href="">Noutati</a></div>
+        </div>
+
+        <div class="header__section">
+            <div class="header__item headerButton"><a href="">Configurari</a></div>
+            <div class="header__item headerButton"><a href="">Intra</a></div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+
+
+    <!-- Start Main -->
+    <!--  sitebar_left -->
+    <main>
+        <div class="siteBar">
+            <div class="siteBar__section">
+                <div class="siteBar__item"><a href="#">Pagina mea</a></div>
+                <div class="siteBar__item"><a href="#">Prieteni</a></div>
+                <div class="siteBar__item"><a href="#">Raspunsuri</a></div>
+                <div class="siteBar__item"><a href="#">Grupuri</a></div>
+                <div class="siteBar__item"><a href="#">Poze</a></div>
+                <div class="siteBar__item"><a href="#">Muzica</a></div>
+                <div class="siteBar__item"><a href="#">Jocuri</a></div>
+                <div class="siteBar__item"><a href="#">Noutati</a></div>
+            </div>
+
+            <div class="siteBar__section">
+                <div class="siteBar__item"><a href="#">Zile de nastere</a></div>
+                <div class="siteBar__item"><a href="#">Notificari</a></div>
+            </div>
+        </div>
+        <!-- sitebar_left-->
+
+
+
+        <!-- Start class wrapSlide -->
+        <div class="wrap">
+            <h1>Foto Slider</h1>
+            <div class="slider">
+                <button onclick="prev()">&laquo;</button>
+                <div class="scroller">
+                    <ul class="items">
+                        <li class="item" style="background-image: url(image/1.jpg)"></li>
+                        <li class="item" style="background-image: url(image/2.jpg)"></li>
+                        <li class="item" style="background-image: url(image/3.jpg)"></li>
+                    </ul>
+                </div>
+                <button onclick="next()">&raquo;</button>
+            </div>
+        </div>
+        <!-- End class wrapSlide -->
+    </main>
+    <!-- End Main -->
+
+
+    <!-- Start Gallery -->
+    <div>
+        <h1>Foto Gallery</h1>
+    </div>
+    <div class="gallery">
+        <div><img
+                src="https://images.pexels.com/photos/2781760/pexels-photo-2781760.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""></div>
+        <div><img
+                src="https://images.pexels.com/photos/355296/pexels-photo-355296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""></div>
+        <div><img
+                src="https://images.pexels.com/photos/2835562/pexels-photo-2835562.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""></div>
+        <div><img
+                src="https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""></div>
+        <div><img
+                src="https://images.pexels.com/photos/2834306/pexels-photo-2834306.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""></div>
+    </div>
+    <!-- End Gallery -->
+
+
+
+    <!-- Start Card -->
+
+
+    <div class="container">
+        <h1>My Card</h1>
+
+        <div class="cards">
+
+            <a href="" class="card">
+                <span class="card-header"
+                    style="background-image: url(https://images.pexels.com/photos/413727/pexels-photo-413727.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+                    <span class="card-title">
+                        <h3>Post title</h3>
+                    </span>
+                </span>
+                <span class="card-summary">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci! Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci!
+                </span>
+                <span class="card-meta">
+                    Publish: August 31th, 2019
+                </span>
+            </a>
+
+
+            <a href="" class="card">
+                <span class="card-header"
+                    style="background-image: url(https://images.pexels.com/photos/157866/sunglasses-glasses-sun-sun-protection-157866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+                    <span class="card-title">
+                        <h3>Post title</h3>
+                    </span>
+                </span>
+                <span class="card-summary">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci! Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci!
+                </span>
+                <span class="card-meta">
+                    Publish: August 31th, 2019
+                </span>
+            </a>
+
+            <a href="" class="card">
+                <span class="card-header"
+                    style="background-image: url(https://images.pexels.com/photos/1878821/pexels-photo-1878821.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+                    <span class="card-title">
+                        <h3>Post title</h3>
+                    </span>
+                </span>
+                <span class="card-summary">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci! Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci!
+                </span>
+                <span class="card-meta">
+                    Publish: August 31th, 2019
+                </span>
+            </a>
+
+            <a href="" class="card">
+                <span class="card-header"
+                    style="background-image: url(https://images.pexels.com/photos/2575044/pexels-photo-2575044.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+                    <span class="card-title">
+                        <h3>Post title</h3>
+                    </span>
+                </span>
+                <span class="card-summary">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci! Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci!
+                </span>
+                <span class="card-meta">
+                    Publish: August 31th, 2019
+                </span>
+            </a>
+
+            <a href="" class="card">
+                <span class="card-header"
+                    style="background-image: url(https://images.pexels.com/photos/35185/hats-fedora-hat-manufacture-stack.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+                    <span class="card-title">
+                        <h3>Post title</h3>
+                    </span>
+                </span>
+                <span class="card-summary">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci! Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci!
+                </span>
+                <span class="card-meta">
+                    Publish: August 31th, 2019
+                </span>
+            </a>
+
+            <a href="" class="card">
+                <span class="card-header"
+                    style="background-image: url(https://images.pexels.com/photos/1078973/pexels-photo-1078973.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+                    <span class="card-title">
+                        <h3>Post title</h3>
+                    </span>
+                </span>
+                <span class="card-summary">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci! Praesentium hic porro temporibus
+                    voluptatibus, impedit adipisci!
+                </span>
+                <span class="card-meta">
+                    Publish: August 31th, 2019
+                </span>
+            </a>
+
+        </div>
+    </div>
+    <!-- End Card  -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS for slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="slide.js"></script>
+</body>
+
+</html>

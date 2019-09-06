@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="wiewport" content="width=device-width, initial-scale=1.0" />
+	<!--Instructiunea pentru telefoane mobile -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--Instructiunea pentru IE -->
+	<link href="layout/css/style_web.css" type="text/css" rel="stylesheet">
+	<link href="layout/css/responsive.css" type="text/css" rel="stylesheet" media="all and (max-width:1024px)">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- icon library -->
+	<script src="js/lightbox-plus-jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+	<script src="js/equalHeight.js" type="text/javascript"></script>
+	<script src="js/fontawesome.js" type="text/javascript"></script>
+	<title>web site</title>
+</head>
+
+<body>
+
+
+
+	<div id="wrapper">
+
+
+
+		<label class="show-menu" for="show-menu">Meniu</label>
+		<input id="show-menu" role="button" type="checkbox">
+
+		<ul id="menu">
+			<li><a href="index.html">Acasa</a></li>
+
+			<li><a href="#">Țara</a>
+				<ul class="hidden">
+					<li><a href="pages/taragrecia.html">Grecia</a></li>
+					<li><a href="pages/tarabulgaria.html">Bulgaria</a></li>
+					<li><a href="pages/taramoldova.html">Moldova</a></li>
+					<li><a href="pages/tararomania.html">România</a></li>
+					<li><a href="pages/taraolanda.html">Olanda</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">Poze</a>
+				<ul class="hidden">
+					<li><a href="pages/pozegrecia.html">Grecia</a></li>
+					<li><a href="pages/pozebulgaria.html">Bulgaria</a></li>
+					<li><a href="pages/pozemoldova.html">Moldova</a></li>
+					<li><a href="pages/pozeromania.html">România</a></li>
+					<li><a href="pages/pozeolanda.html">Olanda</a></li>
+				</ul>
+			</li>
+
+
+
+			<li><a href="#">Excursii</a>
+				<ul class="hidden">
+					<li><a href="pages/excursiigrecia.html">Grecia</a></li>
+					<li><a href="pages/excursiibulgaria.html">Bulgaria </a></li>
+					<li><a href="pages/excursiimoldova.html">Moldova</a></li>
+					<li><a href="pages/excursiiromania.html">România</a></li>
+					<li><a href="pages/excursiiolanda.html">Olanda</a></li>
+				</ul>
+			</li>
+			<!-- <li>
+					<input type="text" placeholder="Search.." name="search2">
+					<button type="submit"><i class="fa fa-search"></i></button>
+			</li> -->
+
+
+		</ul>
+
+		<form method="get" class="search-form" name="search" action="search.php">	
+			<input type="text" class="search" name="words"  value="search..." onfocus="if(this.value='search...') this.value='';" onblur="if(this.value=='') this.value='search...'" />
+			<input type="submit" class="button" value="Search"/>
+		</form>
+
+
+
+
+
+
+		<!--Start Slider -->
+		<div class="wrap">
+			<input type="radio" class="rnav one" name="images" id="slide_1">
+			<input type="radio" class="rnav two" name="images" id="slide_2">
+			<input type="radio" class="rnav three" name="images" id="slide_3" checked>
+			<div class="slide_img" id="one">
+				<img src="media/images/slide/1.jpg">
+				<label for="slide_3" class="pre"></label>
+				<label for="slide_2" class="nxt"></label>
+			</div>
+			<div class="slide_img" id="two">
+				<img src="media/images/slide/2.jpg">
+				<label for="slide_1" class="pre"></label>
+				<label for="slide_3" class="nxt"></label>
+			</div>
+			<div class="slide_img" id="three">
+				<img src="media/images/slide/3.jpg">
+				<label for="slide_2" class="pre"></label>
+				<label for="slide_1" class="nxt"></label>
+			</div>
+			<div class="click">
+				<label for="slide_1" id="dot1" class="dots"> </label>
+				<label for="slide_2" id="dot2" class="dots"> </label>
+				<label for="slide_3" id="dot3" class="dots"> </label>
+			</div>
+		</div>
+		<!--End Slider -->
+
+
+		<div id="content">
+			<div class="content-box">
+				<h2> &rarr; Despre mine</h2>
+				<p>Deseori ne trezim cu întrebarea unde să plecăm în vacanță? Deci, pe pagina mea o sa încerc să descriu
+					citeva locuri frumoase vizitate de mine, și care neapărat o să vă placă și vouă! </p>
+				<p><a class="inapoi" href="pages/despremine.html">Citește mai mult &raquo; </a></p>
+			</div>
+
+			<div class="content-box">
+				<h2> &rarr; Avion sau Mașină?</h2>
+				<p>Am planificat vacanța, dar nu ne-am decis cu ce plecăm în vacanță? Hai să vedem, care sunt avantajele
+					și dezavantajele fiecărui tip de transport! </p>
+				<p><a class="inapoi" href="pages/avionsaumasina.html">Citește mai mult &raquo; </a></p>
+			</div>
+
+			<div class="content-box">
+				<h2>&rarr; Contactele mele </h2>
+
+				<p> <img src="media/images/tel.png" position="relative"> <a class="call"
+						href="callto://+37368222168">(+373)68222168</a> </p>
+				<p> <img src="media/images/mail.png" position="relative"> <a class="mail"
+						href="mailto:dina.virlan@gmail.com">dina.virlan@gmail.com</a> </p>
+				<p> <img src="media/images/skype.png" position="relative"> <a class="skype"
+						href="skype:dina.v89call">dina.v89</a> </p>
+
+				<div class="icon">
+					<a title="Dă-mi un Like!" href="https://www.facebook.com/dina.virlan?ref=bookmarks"
+						class="facebook">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d87090.66631160135!2d28.752427003240957!3d46.98951824699021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x40c97eeaaf20806b%3A0x288ae236c5b77574!2sstr.+Drumul+Schinoasei+1%2F4%2C+Chi%C8%99in%C4%83u%2C+Moldova!3m2!1d46.9895396!2d28.822466799999997!4m0!5e0!3m2!1sen!2s!4v1533803740215"
+			width="100%" height="450" frameborder="0" style="border:0" align="center" allowfullscreen>
+		</iframe>
+
+		<footer>© 2018 DGrytco </footer>
+	</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form using JavaScript</title>
+    <!-- Include CSS file here -->
+    <link href="form.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <h1>Contact Form using JavaScript</h1>
+
+    <form action="https://formspree.io/dina.virlan@gmail.com" method="POST">
+        <label>
+            E-mail
+            <input type="email" name="email" class="email" placeholder="Your email">
+        </label>
+
+        <label>
+            Subject
+            <input type="text" name="subject" class="subject" placeholder="Your Subject">
+        </label>
+
+        <label>
+            Message
+            <textarea class="message" name="message" placeholder="Test Message"></textarea>
+        </label>
+
+        <div class="status">
+
+        </div>
+
+        <button type="submit" class="submit">
+            Send
+        </button>
+
+    </form>
+
+    <!-- Include JS file here
+<div id="form_sample"></div> 
+<script src="form.js"></script>
+</div> -->
+
+</body>
+
+</html>

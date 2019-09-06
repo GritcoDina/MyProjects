@@ -1,0 +1,328 @@
+@media screen and (max-width:1024px){
+	transition:2s;			
+	 
+	html, body{
+	width:100%;	}
+				
+	#wrapper {
+		margin:10px auto 12px auto;
+		width:100%;
+		max-width:750vw;
+		padding:5px 10px 5px 10px;
+		border-radius:10px;
+		border-style:double solid 1px;
+		overflow:hidden;
+		}
+	
+	#content{
+		width:100%;
+		padding:2px;
+		margin:0;
+		border-radius:3px;
+		overflow:auto;
+		border-bottom:1px solid #c0c0c0;
+		position:relative;
+		display:block;
+		}
+	
+	#content-box{
+		margin:0;
+		display:block;
+		padding:2px;
+		}
+	
+	.content-box{
+		width:100%;
+		min-width:200px;
+		float:none;
+		margin:0;
+		clear:both;
+		}
+		
+	.content-box img{
+		position:relative;
+		top:3px;
+		margin-left:2px;
+		}
+		
+	.content-box h2{
+		font-size:2vw;
+		font-weight:bold;
+		color:#090909;
+		border-bottom:5px solid #090909;
+		padding-bottom:1px;
+		margin-bottom:10px;
+		}
+	
+	iframe{
+		width:100%;
+		height:420px;
+		}
+	
+	#vacanta{
+		position:relative;
+		text-indent:2px;
+		word-spacing:-5px;
+		letter-spacing:-10px;
+		font-size:20vw;
+		width:1000px;
+		height:50px;
+	}
+	
+		
+	
+	 /* Aici se incep stilurile pentru div cu div clasa: icon*/
+	 .icon{
+		 padding-bottom:5px;
+		left:18px;
+		 top:-7px;
+		position: relative;
+		width: 30px;
+		height: 30px;
+	  }
+	
+	  iframe{
+		margin-top:20px;
+		width:100%;
+		height:420px; 
+		border:none;
+		text-align:center;
+	}
+	
+	/*Style for gallery tara poze*/
+	.gallery img{
+		width:100%;
+		height:auto;
+		padding-top:10px;
+		transition:0.1s;
+		}
+	}	
+		
+	@media all and (max-width:800px){
+		html, body{
+	width:100%;	}
+		
+		/*Make dropdown links appear links*/
+		ul{
+			position:static;
+			display:none;
+		}
+		
+		/*Create vertical spacing*/
+		li{
+			margin-bottom:none;
+			
+		}
+		
+		/*Make all menu links full width*/
+		ul li, li a{
+			width:100%;
+		}
+		
+		.show-menu{
+			display:block;
+			cursor:pointer;
+		}
+		
+		
+		/*Style search form*/
+	
+	/*.search-form {*/
+	/*	  bottom:32px;*/
+	/*	 margin-right:10px;*/
+	/*	  float:right;*/
+	/*	  z-index:2;*/
+	/*	  position:fised;*/
+	/*	}*/
+	
+		.search-form {
+		 display:none;
+		}
+		
+	/*Style search button*/	
+	.button{
+		float:right;
+		font-size:15px;
+	}	
+	
+		.wrap{
+		margin:0 auto;
+		margin-top:1px;
+		position:relative;
+		width:100%;
+		height:0;
+		/*padding-bottom:40%;*/
+	}
+		
+		
+		#vacanta{
+		position:relative;
+		text-indent:2px;
+		word-spacing:-5px;
+		letter-spacing:-10px;
+		font-size:10%;
+		width:1000px;
+		height:50px;
+	}
+	
+		.content-box h2{
+		font-size:3vw;
+		font-weight:bold;
+		color:#090909;
+		border-bottom:5px solid #090909;
+		padding-bottom:1px;
+		margin-bottom:10px;
+		}
+	
+	  /* Aici se incep stilurile pentru div cu div clasa: icon*/
+	 .icon{
+		 padding-bottom:5px;
+		left:18px;
+		 top:-7px;
+		position: relative;
+		width: 30px;
+		height: 30px;
+	  }
+		
+		/* Aici se incep stilurile pentru mapa google din iframe*/  
+	
+	iframe{
+		width:100%;
+		height:420px; 
+	
+	}
+		
+		/*Style for gallery tara poze*/
+		.gallery img{
+		width:100%;
+		height:auto;
+		padding-top:10px;
+		transition:0.1s;
+		}
+		}
+	
+	
+	
+	/* Responsive Styles*/
+	@media all and (max-width:480px){
+		
+		html, body{
+		width:96%;
+		}
+		
+		/*Make dropdown links appear links*/
+		ul{
+			position:static;
+			display:none;
+		}
+		
+		/*Create vertical spacing*/
+		li{
+			margin-bottom:none;
+			top:10px;
+			
+		}
+		
+		/*Make all menu links full width*/
+		ul li, li a{
+			width:100%;
+		}
+		
+		.show-menu{
+			display:block;
+			cursor:pointer;
+			font: 20px serif;
+		}
+		
+		/*Style search form*/
+		.search-form {
+		 display:none;
+		}
+	
+		
+		.wrap{
+		/*margin-top:20px;*/
+		position:relative;
+		width:100%;
+		height:0;
+		padding-bottom:40%;
+		
+		}
+	
+		
+		.content-box h2{
+		font-size:5vw;
+		font-weight:bold;
+		color:#090909;
+		border-bottom:5px solid #090909;
+		padding-bottom:1px;
+		margin-bottom:10px;
+		}
+	
+	  /* Aici se incep stilurile pentru div cu div clasa: icon*/
+		.icon{
+		 padding-bottom:5px;
+		left:18px;
+		 top:-7px;
+		position: relative;
+		width: 30px;
+		height: 30px;
+		}
+		
+		
+		/* Aici se incep stilurile pentru mapa google din iframe*/  
+		iframe{
+		margin-top:20px;
+		width:100%;
+		height:420px; 
+		border:none;
+		text-align:center;
+		
+		}
+	/*de aici incep stilurile pentru bottom icon*/
+		#content{
+		width:100%;
+		padding:2px;
+		margin:0;
+		border-radius:3px;
+		overflow:auto;
+		border-bottom:1px solid #c0c0c0;
+		position:relative;
+		display:block;
+		}
+	
+	/*Style for gallery tara poze*/
+		.gallery img{
+		width:100%;
+		height:auto;
+		padding-top:10px;
+		transition:0.1s;
+		}
+	
+	p.tara{
+		color:#353535;
+		text-indent:10px;
+		text-align:justify;
+		word-spacing:0.001vw;
+		letter-spacing:0.001vw;
+		font-size:1vw serif;
+		margin-left:10px auto;
+		margin-right:10px auto;
+		margin-top:10px;
+	}
+	
+	 img.taragrecia, .tarabulgaria, .tararomania, .taraolanda, .taramoldova{
+		width: 100%;
+		height:auto;
+		margin-bottom:10px;
+		position:relative;
+	}
+		
+	img.amsterdam, .lise, .edam, .geit, .chisinau, .cricova, .orhei, .bulboaca, .delta,.brasov, .sinaia, .corfu, .creta, .zakynthos, .kasandra, .nisipuriledeaur, .albena, .nesebar {
+		width: 100%;
+		height:auto;
+		margin-bottom:10px;
+		position:relative;	
+	}
+	}
+	

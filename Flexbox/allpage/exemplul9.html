@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Box exemplul 9</title>
+    <link rel="stylesheet" href="../allcss/style9.css">
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <div class="header">
+        <div class="header__section">
+            <div class="header__item headerlogo">
+                GDS
+            </div>
+            <div class="header__item headerButton"><a href="">Tehnologii</a></div>
+            <div class="header__item headerButton"><a href="">Servicii</a></div>
+            <div class="header__item headerButton"><a href="">Evenimente</a></div>
+            <div class="header__item headerButton"><a href="">Cariera</a></div>
+            <div class="header__item headerButton"><a href="">Noutati</a></div>
+        </div>
+
+        <div class="header__section">
+            <div class="header__item headerButton"><a href="">Configurari</a></div>
+            <div class="header__item headerButton"><a href="">Intra</a></div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+
+
+    <!-- Start Main -->
+    <!--  sitebar_left -->
+    <main>
+        <div class="siteBar">
+            <div class="siteBar__section">
+                <div class="siteBar__item"><a href="#">Pagina mea</a></div>
+                <div class="siteBar__item"><a href="#">Prieteni</a></div>
+                <div class="siteBar__item"><a href="#">Raspunsuri</a></div>
+                <div class="siteBar__item"><a href="#">Grupuri</a></div>
+                <div class="siteBar__item"><a href="#">Poze</a></div>
+                <div class="siteBar__item"><a href="#">Muzica</a></div>
+                <div class="siteBar__item"><a href="#">Jocuri</a></div>
+                <div class="siteBar__item"><a href="#">Noutati</a></div>
+            </div>
+
+            <div class="siteBar__section">
+                <div class="siteBar__item"><a href="#">Zile de nastere</a></div>
+                <div class="siteBar__item"><a href="#">Notificari</a></div>
+            </div>
+        </div>
+        <!-- sitebar_left-->
+
+
+
+        <!-- Start class wrapSlide -->
+        <div class="wrap">
+            <h1>Foto Slider</h1>
+            <div class="slider">
+                <button onclick="prev()">&laquo;</button>
+                <div class="scroller">
+                    <ul class="items">
+                        <li class="item" style="background-image: url(image/1.jpg)"></li>
+                        <li class="item" style="background-image: url(image/2.jpg)"></li>
+                        <li class="item" style="background-image: url(image/3.jpg)"></li>
+                    </ul>
+                </div>
+                <button onclick="next()">&raquo;</button>
+            </div>
+        </div>
+        <!-- End class wrapSlide -->
+    </main>
+
+    <!-- Start Gallery -->
+    <h1>Foto Gallery</h1>
+    <div class="gallery">
+        <div><img
+                src="https://images.pexels.com/photos/2781760/pexels-photo-2781760.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""></div>
+        <div><img
+                src="https://images.pexels.com/photos/355296/pexels-photo-355296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""></div>
+        <div><img
+                src="https://images.pexels.com/photos/2835562/pexels-photo-2835562.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""></div>
+        <div><img
+                src="https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""></div>
+        <div><img
+                src="https://images.pexels.com/photos/2834306/pexels-photo-2834306.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""></div>
+    </div>
+    <!-- End Gallery -->
+
+
+    <!-- End Main -->
+
+
+
+
+
+
+
+
+
+
+    <!-- JS for slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="slide.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,848 @@
+
+html, body{
+	background-color:#F0F2F4;
+	background-repeat:repeat;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size:16px;
+	/* line-height:1.5; */
+	min-width:280px;
+	}
+	
+	
+#wrapper {
+	background-color:#F5F7F9;
+	position:relative;
+	margin:12px auto 12px auto;
+	width:1024px;
+	padding:5px 10px 5px 10px;
+	border-radius:10px;
+	border-style:double solid 1px;
+	overflow:hidden;
+	
+	/*min-width:650px;
+	max-width:1100px;*/	
+}
+
+
+
+#content{
+	background:#F5F7F9;   
+	margin-top:19px;
+	margin-bottom:19px;
+	left:1px;
+	right:5px;
+	width:1024px;
+	border:solid 1px #ccc;
+	border-left:none;
+	border-right:none;
+	border-radius:5px;
+	overflow:auto;
+	border-bottom:1px solid #c0c0c0;
+	position:relative;
+	
+	
+}
+
+
+ /*Style for ID menu*/
+ #menu {
+	 background-color:#226BE6;    
+	height:50px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	margin-top:20px;
+	padding:0px;
+	position:relative;
+	z-index:2;
+	}
+ 
+ul{
+	
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	
+}
+
+li{
+	display:block;
+	float:left;
+	margin-right:0px;/*Aici se stabileste distanta dintre blocurile li*/
+}
+
+/* Style for menu links */
+li a{
+	display:block;
+	min-width:140px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-family:sans-serif;
+	color:#fff;
+	background:#226BE6;
+	text-decoration:none;
+	
+	
+
+}
+
+/* Hover state for top level links */
+li:hover a{
+	background-color:#095AE6;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	
+}
+
+/* Style for  dropdown links */
+li:hover ul li a{
+	background-color:#1864E6;
+	color:#fff;
+	height:40px;
+	line-height:40px;
+}
+
+/* Hover state for dropdown links */
+li:hover ul li a:hover{
+	background-color:#226BE6;
+	color:#fff;
+}
+
+/* Hide dropdown links until they are needed*/
+
+li ul{
+	display:none;
+}
+
+/* Make dropdown links vertical */
+
+li ul li{
+	display:block;
+	float:none;
+}
+
+/* Prevent text wrapping on dropdown links*/
+
+li ul li a{
+	width:auto;
+	min-width:100px;
+	padding:0 20px;
+	border-radius:2px;
+	
+}
+
+/* Display the dropdown on hover */
+ul li a:hover + .hidden, .hidden:hover{
+	display:block;
+}
+
+/* Hide(ascunde) checkbox*/
+input[type=checkbox]{
+	display:none;
+}
+
+/* Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu {
+	display:block;
+}
+
+.show-menu{
+	font-family:sans-serif;
+	text-decoration:none;
+	color:#fff;
+	background:#0049C7;
+	text-align:center;
+	padding:10px 0;
+	display:none;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+}
+
+/*Style search form*/
+.search-form {
+	  bottom:35px;
+	  float:right;
+	  margin-right:40px;
+	  position:relative;
+	  z-index:2;
+	}
+	
+/*Style search button*/	
+.button{
+	float:right;
+	background:#4D90F0;
+	color:white;
+	border-radius:0 5px 5px 0;
+	cursor:pointer;
+	position:relative;
+	padding:2px;
+	font-family:sans-serif;
+	border:none;
+	font-size:15px;
+}	
+
+/*Style button serch*/
+.btn-search {
+	  background: #424242;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #1c1c1c;
+	}
+/*Style button serch from link and visited*/
+.btn-search:link, .btn-search:visited {
+	  color: #fff;
+	}
+.btn-search:active, .btn-search:hover {
+	  background: #1c1c1c;
+	  color: #fff;
+	}
+	/*Input type for button serach*/
+	input [type=text]{
+	padding:7px;
+	border:none;
+	font-size:16px;
+	font-family:sans-serif;
+}
+
+	
+#vacanta{
+	position:relative;
+	text-indent:15px;
+	width:1000px;
+	height:50px;
+}
+	/*Style for "Vacanta, dulce vacanta!"*/
+.citat{
+	position:relative;
+	font:30px Serif;
+	font-style:italic;
+	right:150px;
+	bottom:47px;
+	color:#226BE6;
+	margin-top:5px;
+	
+}
+/*Style for citat "„Nu am ajuns pretutindeni, dar e pe lista mea.”
+(Susan Sontag)"*/
+.citat1{
+	position:relative;
+	font:15px Serif;
+	font-style: italic;
+	left:645px;
+	bottom:90px;
+	color:#3672A6;
+	margin-bottom:5px;
+	line-height:0;
+	letter-spacing:1px;
+}
+
+	
+#home{
+ margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+  overflow: hidden;
+  border-width: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #7BBA33;
+  letter-spacing: 0;
+}
+
+#tara{
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+  overflow: hidden;
+  border-width: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #7BBA33;
+  letter-spacing: 0;
+}
+#calatorie{
+   margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+  overflow: hidden;
+  border-width: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #7BBA33;
+  letter-spacing: 0;
+}
+
+#poze{
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+  overflow: hidden;
+  border-width: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #7BBA33;
+  letter-spacing: 0;
+}
+
+
+footer{
+	background-color:#226BE6;        /*#3672A6;*/
+	color:#fff;
+	text-align:center;
+	padding:10px;
+	margin-bottom:none;
+	border-radius:1px;
+	font-size:17px;
+	font-weight:bold;
+	font-family:Arial;
+	letter-spacing:1px;
+	}
+	
+h1{
+	color:#3672A6;
+	text-align:center;
+	letter-spacing:1px;
+	position: relative;
+	text-shadow: 2px 1px #5FC3E1;
+}
+
+a{
+ text-decoration:none;
+ color:#010101;
+ font-weight:bold;
+ text-decoration:uppercase;
+
+}
+
+a.inapoi:hover{
+	color: #3B3B3B; 
+}
+
+
+ /*Pina aici toate stilurile pentru atributele, clasele tagurile sunt la fel!!*/
+ 
+  
+
+/*De aici  incep stilurile pentru documentul html care difera de celelalte atribute din alte mape*/
+
+
+
+.wrap{
+	margin:0 auto;
+	margin-top:22px;
+	position:relative;
+	width:100%;
+	height:0;
+	padding-bottom:40%;
+	background:#4c4c4c;
+	border:none;
+	overflow:hidden;
+	border-radius:5px;
+	
+}
+
+
+.slide_img{
+	position: absolute;
+	max-width:100%;
+	height:102%;
+	margin: 0 auto;
+	overflow:hidden;
+	text-decoration: none;
+}
+
+	
+.slide_one, .slide_two, .slide_three{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	opacity:1;
+	transition:opacity 1.5s ease-in-out;	
+	
+	
+	
+}
+.slide_img img{
+	width:100%;
+	height:100%;
+	
+}
+
+.click{
+	position:absolute;
+	bottom:5px;
+	left:50%;
+	transform: translateX(-50%);
+	width:100%;
+	height:15px;
+	text-align:center;
+    z-index:1;
+}
+
+
+#slide_1:checked  ~ #one,
+#slide_2:checked  ~ #two,
+#slide_3:checked  ~ #three {
+	z-index:1;
+}
+
+#slide_1:checked  ~ .click #dot1,
+#slide_2:checked  ~ .click #dot2,
+#slide_3:checked  ~ .click #dot3 {
+	background:#226BE6;		
+}
+
+
+.pre, .nxt{
+	width:30px;
+	height:100%;
+	position:absolute;
+	top:0;
+	background:rgba(88,88,88,.4);
+	cursor:pointer;
+	
+		
+}
+
+.pre{
+	left:0;
+	
+}
+.nxt{
+	right:0;	
+}
+
+.dots{
+width:14px;
+height:14px;
+border-radius:50%;
+background-color:#fff;
+display:inline-block;
+margin-right:2px;
+margin-bottom:5px;
+cursor:pointer;
+border:none;
+background:#ECEBE6;
+
+
+}
+
+
+
+.rnav{
+	display:none;
+	
+}
+
+
+a.call:hover{
+	                       /*face textul ISI SCHIMBA CULOARE CIND dai click pe text */
+	color: #3B3B3B;
+}
+
+a.mail:hover{
+	
+color: #3B3B3B;
+}
+
+a.skype:hover{
+	color: #3B3B3B; 
+	
+}
+
+
+hr{
+	display:block;
+	margin-top: 25px;
+	margin-bottom:25px;
+	margin-left: auto;
+	margin-right:auto;
+	border-style: solid;
+	border-width: 1px;
+	color:#CCCCCC;
+}
+#content-box{
+	margin-right:0;
+	margin-left:0;
+}
+
+.content-box{
+	width:255px;
+	float:left;
+	margin-right:34px;
+	margin-left:34px;
+	
+}
+.content-box img{
+	position:relative;
+	top:3px;
+	margin-left:-15px;
+}
+.content-box h2{
+	font-size:18px;
+	font-weight:bold;
+	color:#090909;
+	border-bottom:5px solid #090909;
+	padding-bottom:1px;
+	margin-bottom:10px;
+	
+}
+
+
+	
+h2{
+	color:#444444;
+	text-align:left;
+	letter-spacing:1px;
+	margin-left:1px;
+	margin-right:1px;
+}
+
+p{
+	color:#666666;
+	text-indent:15px;
+}
+
+ /*Aici se termina stilurile care difera doar pentru documentul web */
+
+/*De aici  incep stilurile pentru documentul cu: tara*/
+  
+  h2.tara{
+	color:#3672A6;
+	text-align:center;
+	letter-spacing:1px;
+	position: relative;
+  
+}
+
+p.tara{
+	color:#353535;
+	text-indent:25px;
+	text-align:justify;
+	letter-spacing:1px;
+	line-height:1.8;
+	font:20px Serif;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+
+
+
+img.taragrecia, .tarabulgaria, .tararomania, .taraolanda, .taramoldova{
+	width: 280px;
+	height:220px;
+	padding:5px auto;
+	float:right;
+	margin-top:8px;
+	margin-left:10px;
+	margin-right:10px;
+	position:relative;
+}
+
+
+p.clickinapoi{  /*p.clickinapoi   ----  este la fel in toate documentele*/
+	color:#353535;
+	text-indent:25px;
+	text-align:justify;
+	letter-spacing:1px;
+	line-height:1.8;
+	text-shadow: none;
+	font:20px Serif;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+
+p.clickinapoitara, .clickinapoibulgaria, .clickinapoigrecia, .clickinapoimoldova, .clickinapoiolanda{  /*p.clickinapoi   ----  este la fel in toate documentele*/
+	color:#353535;
+	text-indent:25px;
+	text-align:justify;
+	letter-spacing:1px;
+	line-height:1.8;
+	text-shadow: none;
+	font:20px Serif;
+	margin-top:20px;
+}
+
+p.clickinapoiromania{  /*p.clickinapoi   ----  este la fel in toate documentele*/
+	color:#353535;
+	text-indent:25px;
+	text-align:justify;
+	letter-spacing:1px;
+	line-height:1.8;
+	text-shadow: none;
+	font:20px Serif;
+	margin-top:20px;
+}
+ /* Aici se termina stilurile pentru documentul cu: tara*/
+ 
+ /* De aici incep stilurile pentru documentul cu: poze*/
+
+ h2.poze{
+	color:#3672A6;
+	text-align:center;
+	margin:30px 0 50px;
+	position:relative;
+	text-align:center;
+}
+	
+#gallery .gallery{
+	margin:10px 50px;
+	position:relative;
+	text-align:center;
+}
+
+.gallery img{
+	width: 230px;
+	height:150px;
+	padding-left:11px;
+	padding-right:11px;
+	padding-top:10px;
+	filter: drop-shadow(100%);
+	transition: 1s;
+	float:auto;
+	
+	
+}
+
+.gallery img:hover{
+	filter: drop-shadow(0);
+	opacity:0.8;
+	transform: scale(1.02);
+	
+}
+	
+/* Aici se termina stilurile pentru documentul cu: poze*/
+
+/* De aici incep stilurile pentru documentul cu: excursii*/
+
+h2.excursii{
+	color:#3672A6;
+	text-align:center;
+	letter-spacing:1px;
+	position: relative;
+	
+}
+p.excursii{
+	color:#353535;
+	text-indent:25px;
+	text-align:justify;
+	letter-spacing:1px;
+	line-height:1.8;
+	text-shadow: none;
+	font:20px Serif;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+.corfu, .creta, .zakynthos, .kasandra, .nisipuriledeaur, .albena, .nesebar{
+    width: 280px;
+	height:220px;
+	padding:5px auto;
+	float:right;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+.chisinau,.cricova, .orhei, .bulboaca,.delta,.brasov,.sinaia{
+	width: 280px;
+	height:220px;
+	padding:5px auto;
+	float:right;
+	margin-top:8px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.amsterdam, .lise,.edam, .geit {
+	width: 230px;
+	height:190px;
+	padding:5px auto;
+	float:right;
+	margin-top:5px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+/* Aici se termina stilurile pentru documentul cu: excursii*/
+	
+/* Aici se incep stilurile pentru documentul cu: Despre mine*/
+	
+#content h2.despremine{
+	max-width:1200px;
+	color:#3672A6;
+	text-align:center;
+	letter-spacing:1px;
+	font:35px Serif;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+
+p.despremine{
+	color:#353535;
+	text-indent:25px;
+	text-align:justify;
+	letter-spacing:1px;
+	line-height:1.8;
+	text-shadow: none;
+	font:20px Serif;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+}
+/* Tagul strong este si in documentul -despremine- si in documentul -avionsaumasina-*/
+strong {
+	color:#010101;
+	margin-top:10px;
+}
+img.despremine{
+	margin-left:10px;
+	margin-right:5px;
+	width:250px;
+	height:250px;
+	float:right;
+	line-height:1.9;
+	margin-top:5px;
+}
+
+/* Aici se termina stilurile pentru documentul cu:Despre mine*/
+ 
+/* Aici se incep stilurile pentru documentul cu: Avion sau masina*/
+ 
+ h2.avionmasina{
+	color:#3672A6;
+	text-align:center;
+	letter-spacing:1px;
+	position: relative;
+  
+}
+
+#content h2.avionmasina{
+	max-width:1200px;
+	color:#3672A6;
+	text-align:center;
+	letter-spacing:1px;
+	font:35px Serif;
+	margin-top:15px;
+	margin-bottom:5px;
+}
+
+p.avionmasina{
+	color:#353535;
+	text-indent:25px;
+	text-align:justify;
+	letter-spacing:1px;
+	line-height:1.8;
+	text-shadow: none;
+	font:20px Serif;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+img.avionmasina{
+	margin-left:10px;
+	margin-right:5px;
+	width:350px;
+	height:350px;
+	float:right;
+	line-height:1.9;
+	margin-top:5px;
+}
+ 
+ /* Aici se termina stilurile pentru documentul cu:Avions sau masina*/
+ 
+  /* Aici se incep stilurile pentru div cu div clasa: icon*/
+ 
+ .icon{
+    position: relative;
+    top: 5%;
+    width: 30px;
+    height: 30px;
+  }
+.icon a {
+    display: block;
+    text-align: center;
+    padding: 4px;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  
+.icon a:hover {
+      background-color: #35ABE6;
+  }
+
+.facebook {
+  background: #009BE6;
+  color: white;
+}
+/* Aici se termina stilurile pentru div cu clasa: icon*/    
+  
+/* Aici se incep stilurile pentru mapa google din iframe*/  
+
+iframe{
+	margin-top:2px;
+	width:1024px;
+	height:450px; 
+	border:none;
+	text-align:center;
+}
+
+
+.fa-list.modify{
+	display:none;
+	font-size:35px;
+	position:absolute;
+	left:10px;
+	top:121px;
+	z-index:3;
+	cursor:pointer;
+	color:white;
+	font-size:33px;
+
+}
+ /*MEDIA*/
+	  
+
