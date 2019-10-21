@@ -1,0 +1,145 @@
+ a:link {
+     color: green;
+     text-decoration: none;
+ }
+
+ a:visited {
+     color: black;
+ }
+
+ a:active {
+     color: yellow;
+ }
+ a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+
+#title{
+    color: #666666;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.about{
+    width: 65%;
+    padding: 0 15px;
+    margin-top:60px;
+    margin-right:5px;
+    border: 1px solid #E7EAED; 
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+ .about h2{
+     color:#666666;
+     text-transform: uppercase;
+ }
+
+ .photos{
+    width: 97;
+    padding: 0 15px;
+    margin-top:60px;
+    border: 1px solid #E7EAED; 
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+ .photos h2{
+    color:#666666;
+    text-transform: uppercase;
+    text-align: center;
+ }
+
+ .photos img{
+     margin-left:5px;
+     margin-bottom:15px;
+     width:170px;
+     height:170px;
+     border: 1px solid #E7EAED; 
+     cursor: pointer;
+    }
+
+.care{
+    border: 1px solid #E7EAED; 
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+ .care h2{
+    color: #666666;
+    text-align: center;
+    text-transform: uppercase;
+ }
+.other{
+    border: 1px solid #E7EAED; 
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+ .other h2{
+    color: #666666;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ .more{
+    border: 1px solid #E7EAED; 
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+ .more h2{
+    color: #666666;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ .more p{
+     margin-left: 39px;
+ }
+
+#other_breeds{
+    display: flex;
+    justify-content: center;
+    margin-right: 45px;
+}
+
+ #other_breeds li{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    display: inline;
+    margin-left: 20px;
+}
+
+ .allcare{
+    list-style-type: none;
+    padding-right: 25px;
+    padding-bottom: 5px;
+ }
+
+ span{
+    color: #666666;
+    font-size: 20px;
+    font-weight: normal;
+ }
+
+ a img{
+    width:250px;
+    height:250px;
+    float: right;
+    border: 1px solid #E7EAED; 
+    border-radius: 5px;
+}
+
+main{
+    margin-left:60px;
+    margin-right: 60px;
+}
+
+.more_info li{
+    list-style-type: none;
+}
