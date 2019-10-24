@@ -39,3 +39,6 @@ Am finisat misiunea 8!
 https://docs.google.com/presentation/d/11TrWf4Z0Pri0GUAjfaPvEe6MshtqwcaKFUmZih8ao8I/edit#slide=id.p1
 
 
+------------------------------------------------------
+Change SVG img color:
+https://medium.com/@union_io/swapping-fill-color-on-image-tag-svgs-using-css-filters-fa4818bf7ec6

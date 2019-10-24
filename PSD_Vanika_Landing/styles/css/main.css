@@ -1,0 +1,166 @@
+.background_img img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    margin-top: -70px;
+}
+
+.logo_ims{
+    margin-top:18px;
+    cursor: pointer;
+}
+
+.try_now{
+    background-color: #fff;
+    color: #005D96;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+
+
+
+/*Start media queries*/
+/* @media screen and (max-width: 768px){
+    body{
+        background: #00414d no-repeat center fixed;
+        background-size: cover;
+    }
+
+    .landing-text h1{
+        font-size: 10rem;
+    }
+
+    .landing-text h6{
+        font-size: 1.7rem;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 1rem 0;
+    }
+
+    .nav-link{
+        font-size: 4rem;
+    }
+
+    .about-heading h1{
+        font-size: 8rem;
+    }
+
+    .section-heading h1{
+        font-size: 3rem;
+    }
+
+    .about-details .nav-list{
+    flex-direction: initial;
+    }
+
+    .about-details li{
+        margin: 0 2rem;
+    }
+
+    .icon-container{
+    width: 4rem;
+    height: 4rem;
+    }
+
+    .icon-container i{
+        font-size: 2rem;
+    }
+
+    .timeline ul{
+        margin: 0 0 0 auto;
+    }
+
+    .timeline .date:before{
+        left:-16rem;
+    }
+   
+    .timeline .date:after{
+        left: -5.9rem;
+    }
+
+    .portfolio-img img{
+        width:100%;
+        margin: 0 0 2rem 0;  
+        flex: 1;
+        text-align: middle;
+   } 
+
+
+   
+     
+}
+
+
+@media screen and (max-width: 600px){
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .landing-text h1{
+        font-size: 8rem;
+    }
+
+    .landing-text h6{
+       font-size: 1.4rem;
+    }
+
+    .nav-link{
+        font-size: 3.5rem;
+    }
+
+    .about .container{
+        flex-direction: column;
+    }
+
+    .profile-img{
+        margin: 0 0 7rem 0;
+    }
+
+
+    .portfolio-item{
+        flex-direction: column;
+    } 
+
+    .portfolio-img{ 
+        width: 100%;
+        margin: 0 0 2rem 0;  
+        order: 1;
+      } 
+
+      .portfolio-description{
+          margin: 0;
+          order: 2;
+      }
+
+      .timeline p{
+          font-size: 1.6rem;
+      }
+
+      .timeline .date::before{
+          font-size: 1.4rem;
+          left: -15rem;
+          min-width: 8rem;
+      }
+
+      form{
+          width: 100%;
+      }
+
+      .up{
+          right: 2rem;
+      
+} */
+
+/*End media queries*/

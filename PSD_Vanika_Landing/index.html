@@ -10,29 +10,33 @@
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/animate.css">
-    <link rel="stylesheet" href="styles/app.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="styles/css/animate.css">
+    <link rel="stylesheet" href="styles/css/app.css">
+
+    <!--My Style CSS -->
+    <link rel="stylesheet" href="styles/css/main.css">
 
 
     <!-- custom style -->
     <!-- <link rel="stylesheet" href="styles/ui.css"> -->
-	<!-- <link href="styles/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" /> -->
+    <!-- <link href="styles/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" /> -->
 
-<!--adaug link-urile la slider-->
+    <!--adaug link-urile la slider-->
     <!-- plugin: owl carousel  -->
     <link href="plugins/owlcarousel/assets/owl.carousel.min.css">
     <link href="plugins/owlcarousel/assets/owl.theme.default.css">
     <script src="plugins/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- plugin: fancybox  -->
-	<script src="plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
-	<link href="plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
+    <script src="plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
+    <link href="plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
 
-    
-    
-		<!-- jQuery -->
-        <script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
-    
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
 
 
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -46,7 +50,6 @@
 <body>
 
     <!-- Start Header -->
-    <div class="background_img"></div>
     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -55,7 +58,7 @@
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                 </button>
-                <img class="logo_ims" src="image/ims logo@1X.png" alt="logo">
+                <img class="logo_ims" src="image/ims logo@1X.png" alt="logo_IMS">
             </div>
             <div class="collapse navbar-collapse">
 
@@ -70,20 +73,30 @@
                         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                             English <span class="glyphicon glyphicon-menu-down"></span></button>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">German</a></li>
+                            <li><a class="german" href="#">German</a></li>
                         </ul>
                     </div>
                 </ul>
             </div>
         </div>
+
     </section>
     <!-- End Header -->
+
+
+
+    <!-- Start Background Img -->
+    <div class="background_img">
+        <img src="image/RoundedRectangle.png" alt="">
+    </div>
+    <!-- End Background Img -->
 
 
 
     <!-- Start Section About -->
     <section class="about" id="about">
         <div class="container">
+
             <div class="about-details" data-aos="fade-left">
                 <div class="about-heading">
                     <h4>Rise a new lavel of your database </h4>
@@ -91,7 +104,7 @@
                         recusandae soluta modi ad fuga nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit.</p>
                 </div>
-                <a href="#" class="try_now"> TRY NOW</a>
+                <a href="#" class="try_now"> <b>TRY NOW</b> </a>
             </div>
 
             <div class="profile-img" data-aos="fade-right">
@@ -102,7 +115,9 @@
     <!-- End Section About -->
 
 
-    <!--Section Services-->
+
+
+    <!--Start Section Services-->
     <section class="services" id="services">
         <div class="container">
             <div class="section-heading">
@@ -134,7 +149,7 @@
                     </div>
 
                     <div class="title">
-                        <h6 class="grid-title"> <b>Increase Speed</b> </h6>
+                        <h6 class="grid-title2"> <b>Increase Speed</b> </h6>
                     </div>
 
                 </div>
@@ -156,19 +171,19 @@
                     </div>
 
                     <div class="title">
-                        <h6 class="grid-title"> <b>Update</b> </h6>
+                        <h6 class="grid-title4"> <b>Update</b> </h6>
                     </div>
                 </div>
             </div>
             <!--End Grid -->
         </div>
-
         </div>
     </section>
+    <!--Start Section Services-->
 
 
 
-
+    <!-- Start Section Services 2 -->
     <section class="services2">
         <div class="container">
             <div class="section-heading">
@@ -179,28 +194,27 @@
             </div>
         </div>
     </section>
+    <!-- End Section Services 2 -->
 
 
 
 
 
+<!-- Start Slider -->
 
 
-
-
-
-    <section class="section-content padding-y">
-		<!-- Antet pentru slider-ul nr.1 -->
-		<div class="title-text text-center">
+    <!-- <section class="section-content padding-y"> -->
+    <!-- Antet pentru slider-ul nr.1 -->
+    <!-- <div class="title-text text-center">
 			<span class="h4">
 				Cele mai vândute produse!</span>
 		</div>
 		<div class="container">
-			<div class="row">
+			<div class="row"> -->
 
 
-				<!-- ============== owl slide items  ============= -->
-				<div class="owl-carousel owl-init slide-items" data-items="5" data-margin="20" data-dots="true"
+    <!-- ============== owl slide items  ============= -->
+    <!-- <div class="owl-carousel owl-init slide-items" data-items="5" data-margin="20" data-dots="true"
 					data-nav="true">
 					<div class="item-slide">
 						<figure class="card card-product">
@@ -214,9 +228,9 @@
 								</h6>
 								<small><del>100$</del>&nbsp;&nbsp;-50%</small>
 								<p class="price">50$</p>
-							</figcaption>
-						</figure> <!-- card // -->
-					</div>
+							</figcaption> -->
+    <!-- </figure> card // -->
+    <!-- </div>
 					<div class="item-slide">
 						<figure class="card card-product">
 							<div class="img-wrap">
@@ -228,9 +242,9 @@
 										name</a></h6>
 								<small><del>120$</del>&nbsp;&nbsp;-50%</small>
 								<p class="price">60$</p>
-							</figcaption>
-						</figure> <!-- card // -->
-					</div>
+							</figcaption> -->
+    <!-- </figure> card // -->
+    <!-- </div>
 					<div class="item-slide">
 						<figure class="card card-product">
 							<div class="img-wrap">
@@ -242,9 +256,9 @@
 										name</a></h6>
 								<small><del>200$</del>&nbsp;&nbsp;-50%</small>
 								<p class="price">100$</p>
-							</figcaption>
-						</figure> <!-- card // -->
-					</div>
+							</figcaption> -->
+    <!-- </figure> card // -->
+    <!-- </div>
 					<div class="item-slide">
 						<figure class="card card-product">
 							<div class="img-wrap">
@@ -256,9 +270,9 @@
 										name</a></h6>
 								<small><del>160$</del>&nbsp;&nbsp;-50%</small>
 								<p class="price">80$</p>
-							</figcaption>
-						</figure> <!-- card // -->
-					</div>
+							</figcaption> -->
+    <!-- </figure> card // -->
+    <!-- </div>
 					<div class="item-slide">
 						<figure class="card card-product">
 							<div class="img-wrap">
@@ -270,17 +284,21 @@
 										name</a></h6>
 								<small><del>180$</del>&nbsp;&nbsp;-50%</small>
 								<p class="price">90$</p>
-							</figcaption>
-						</figure> <!-- card // -->
-                    </div>
-                    
-
-					
+							</figcaption> -->
+    <!-- </figure> card // -->
+    <!-- </div>
+    
 				</div>
-			</div>
-		</div> <!-- container .//  -->
-	</section>
-	<!-- ========================= SECTION CONTENT END// ========================= -->
+			</div> -->
+    <!-- </div> container .//  -->
+    <!-- </section> -->
+    <!-- ========================= SECTION CONTENT END// ========================= -->
+
+
+
+<!-- End Slider -->
+
+
 
 
 
