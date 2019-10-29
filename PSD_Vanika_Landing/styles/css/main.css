@@ -3,7 +3,7 @@
     width: 100%;
     height: auto;
     z-index: -1;
-    margin-top: -70px;
+    margin-top: -31px;
 }
 
 .logo_ims{
@@ -21,6 +21,11 @@
     border-radius: 5px;
     letter-spacing: 1px;
 }
+
+.try_now:hover{
+    text-decoration: underline;
+}
+/* -------------------- */
 
 
 

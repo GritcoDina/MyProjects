@@ -3,10 +3,8 @@
 /*24.10.19 Start Style for NAV */
 .custom-navbar {
     background: #005D96;
-    /* border-top: 5px solid #29ca8e; */
     border-bottom: 0;
     padding: 12px 0;
-    /* box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1); */
     margin-bottom: 0;
     padding: 0;
 }
@@ -145,67 +143,6 @@
 /* End Style for btn with English/German text */
 
 
-/* #home .container {
-    margin-top: 150px;
-} */
-
-/* style for button carousel */
-/* #home a {
-    background-color: transparent;
-    background: transparent;
-    border-radius: 50px;
-    border: 1px solid #fff;
-    text-align: center;
-    color: #fff;
-    width: 150px;
-    margin: 10px auto;
-    padding: 10px;
-} */
-/* style for button carousel:hover*/
-/* #home a:hover { */
-    /* background: #fff;
-    color: #101010;
-    opacity: 0.6;
-}
-
-#home .item {
-    color: #fff;
-    padding-top: 200px;
-}
-
-.home-slider .item {
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-size: cover;
-    height: 650px;
-}
-
-.home-slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
-    background-position: center;
-    width: 100%;
-    height: 750px;
-}
-
-.home-slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
-    width: 100%;
-    height: 750px;
-}
-
-.home-slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
-    width: 100%;
-    height: 750px;
-}
-
-
-.social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
-} */
-
 
 /* 24.10.19 Start About*/
 #about {
@@ -226,25 +163,69 @@
     margin-bottom: 15px;
     text-transform: uppercase;
     color:#fff;
-    font-size: 23px;
+    font-size: 19px;
 }
 
 .about-heading p {
     margin-bottom: 65px;
     color:#fff;
-    font-size: 18px;
+    font-size: 17px;
     opacity: 0.8;
 }
 
 .profile-img {
     position: relative;
     float: right;
-    margin-top: -250px;
+    bottom: 240px;
     margin-left:0px;
     z-index: 1;
 }
 
 /* 24.10.19 End About*/
+
+
+/*Start about2*/
+#about2 .container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .about-heading2{
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .about-heading2 h6{
+        font-size: 30px;
+        color: #072532;
+        margin-bottom: 25px;
+    }
+    
+    .about-heading2 p{
+        font-size: 4rem;
+        font-weight: 300;
+    }
+    
+    .profile-img2{
+        position: relative;
+        float: right;
+        margin-left:0px;
+         z-index: 1;
+    }
+    
+    .about-details2{
+        color:#072532;
+        font-size: 18px;
+        opacity: 0.8;
+        width: 30%;
+        flex: 1;
+        margin-right:57px
+    }
+    /*End about2*/
+
 
 
 
@@ -254,9 +235,9 @@
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    top: -245px;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-    width:75%;
+    width:87%;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
@@ -268,9 +249,8 @@
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 65px;
+    margin-top: -190px;
     margin-bottom: 65px;
-    /* box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); */
     width:75%;
     margin-left: auto;
     margin-right: auto;
@@ -332,14 +312,18 @@ img{
 
 .grid-title{
     text-align: center;
+    font-size: 15px;
+    margin-right:15px;
 }
 
 .grid-title2{
+    font-size: 15px;
     text-align: center;
     margin-top: -35px;
 }
 
 .grid-title4{
+    font-size: 15px;
     text-align: center;
     margin-top: 38px;
 }
@@ -584,91 +568,81 @@ padding-left: 20px;
     border-radius: 10px;
 }
 
+
+
+/*------------------contact------------------*/
+
+
+
+/* -----------------------------Map / Address----------------------------- */
+#map{
+    margin-top: 50px;
+}
+
+#map .row{
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin: 0;
+    padding: 0;
+}
 .map {
+    position: relative;
+    display: flex;
+    justify-content: flex-end; 
     margin: 0;
     padding: 0;
     width: 100%;
     height: auto;
 }
 
-.text_map {
-    text-align: center;
-}
-/*------------------contact------------------*/
-
-
-
-/* -----------------------------footer----------------------------- */
-#footer {
-    background-color: #2b302e;
-    color: #fff;
-    padding-top: 50px;
-    padding-bottom: 50px;
-
+.map2 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
 }
 
-.footer-info address a{
-    color: #fff;
-    opacity: 0.6;
+.address_text{
+    position: relative;
+    background-color: #005D96;
+    width: 50%;
+    height: 200px;
+    margin: 0;
+    padding: 60px 15px;
+    text-align: left;
 }
 
-.footer-info address{
+.address_text2{
+    position: relative;
+    background-color: #005D96;
+    width: 50%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    padding: 60px 15px;
+    text-align: right;
+
+}
+
+.address_text p, .address_text2 p{
+    padding: 0;
+}
+
+.address_text address a, .address_text2 address a {
     color: #fff;
-    opacity: 0.6;
+}
+
+.address_text address, .address_text2 address {
+    color: #fff;
 } 
 
-.footer-menu a {
-    color: #fff;
-    opacity: 0.6;
+/* -----------------------------Map / Address----------------------------- */
 
-}
-
-.footer-menu ul {
-    padding-left: 0;
-}
-
-.footer-menu li {
-    display: inline-block;
-    list-style-type: none;
-    text-decoration: none;
-    opacity: 0.6;
-}
-
-.copyrirght-text {
-    opacity: 0.6;
-}
-input#email.form-control {
-    background: #2b302e;
-    color: #fff;
-    border: 0;
-    opacity: 0.6;
-}
-
-.form-group span{
-    opacity: 0.6;
-}
-/* button-Send me */
-input#form-submit.form-control {
-    background: #2b302e;
-    border-radius: 50px;
-    border: 2px solid white;
-    color: #fff;
-    width: 200px;
-    height: 50px;
-    margin: 30px auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0;
-    opacity: 0.6;
-}
-/* button-Send me:hover */
-input#form-submit.form-control:hover {
-    background:transparent;
-    color: #fff;
-    opacity: 0.3;
-}
-
-/* -----------------------------footer----------------------------- */
 
 
 /* ----------------media------------------ */
